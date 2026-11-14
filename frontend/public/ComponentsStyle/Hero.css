@@ -1,16 +1,22 @@
-.circle{
-    background-color: #a4f783;
-    transition:all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+.hero-section {
+  position: relative;
+  height: 110vh;
+  overflow: hidden;
+      font-family: 'Times New Roman', Times, serif;
+
 }
-.hero-section{
-    height: 110vh;
-    width: 100%;
-    overflow: hidden;
-    font-family: 'Times New Roman', Times, serif;
-    /* background-color:#eeeeee; */
-     
-   
+
+.circle {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 2;
 }
+
 .hero-section video{
  background-size: cover;
  object-fit: cover;

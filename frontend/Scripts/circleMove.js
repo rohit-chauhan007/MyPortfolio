@@ -1,10 +1,7 @@
 const circleMove = () =>{
-    console.log("circle start");
     const circle = document.querySelector(".circle");
     const logoCircleBig = document.querySelector(".btn-text");
-    console.log(logoCircleBig);
    
-    console.log(circle);
     if(!circle){
         requestAnimationFrame(circleMove);
         return;
@@ -20,7 +17,6 @@ const circleMove = () =>{
      });
      //circle big after enter the logo
       logoCircleBig.addEventListener("mouseenter",(ev)=>{
-        console.log("enter");
         gsap.to(circle,{
             scale:1.5
         });

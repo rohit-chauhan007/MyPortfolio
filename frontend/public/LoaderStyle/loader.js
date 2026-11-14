@@ -34,7 +34,15 @@ tl.to(".loader",{
        borderBottomRightRadius:"30%",
     ease:"power3.out",
 
-}).to(".Home")
+}).from(".hero-section",{
+  yPercent:-100,
+  delay:1,
+  duration:1,
+   borderBottomLeftRadius:"30%",
+  borderBottomRightRadius:"30%",
+  ease:"power3.out"
+ 
+},"+=")
 
 }
 
