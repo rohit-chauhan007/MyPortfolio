@@ -1,0 +1,7 @@
+.product-section{
+    height: 100vh;
+    width: 100%;
+
+    overflow: hidden;
+    box-sizing: border-box;
+}
