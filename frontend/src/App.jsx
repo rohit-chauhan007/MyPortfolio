@@ -8,10 +8,8 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 function App() {
   return (
     <>
-            <div className="circle" style={{ height: "20px", width: "20px", background: "red", borderRadius: "50%", opacity: "0", position: "absolute", top: "0", left: "0" }}></div>
-
+         <div className="circle" ></div>
       <div className="app">
-
         <Loader />
         <BrowserRouter>
           <Routes>

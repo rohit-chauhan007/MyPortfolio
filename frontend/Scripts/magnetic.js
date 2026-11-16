@@ -39,23 +39,16 @@ magnetic.addEventListener("pointerleave", () => {
 });
 }
 magneticLogo();
-console.log("magneticLogo end here 1");
-console.log("and magnetiveNavigation start here 2");
 
 //magnetic navigation
 function magneticNavigation(){
-  console.log("called magnaticNavigation");
 const magneticNav = document.querySelectorAll(".navigation a");
-console.log("magneticNav", magneticNav.length);
 if( magneticNav.length == "0"){
-   console.log("not find");
-    requestAnimationFrame(magneticNavigation);//reload the browser/rerender
-   
+    requestAnimationFrame(magneticNavigation);//reload the browser/rerender  
     return;
 }
 magneticNav.forEach((links)=>{
 if(!links && magneticNav){
-  console.log("not find 2")
     requestAnimationFrame(magneticNavigation);
     return;
 }
@@ -92,8 +85,3 @@ links.addEventListener("pointerleave", () => {
 })
 }
 magneticNavigation();
-
-
-
-
-console.log("hello")
