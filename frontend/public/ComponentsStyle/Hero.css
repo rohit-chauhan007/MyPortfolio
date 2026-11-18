@@ -10,8 +10,8 @@
  position:fixed;
    top:0;
    left:0;
-    height:10px;
-    width:10px;
+    height:20px;
+    width:20px;
     background-color: black;
     border-radius:50%;
     transition:all cubic-bezier(0.23, 1, 0.320, 1) 0.5s;
@@ -26,3 +26,10 @@
  width: 100%;
 
 }
+/* .hero-text-section{
+  height:110vh;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+} */

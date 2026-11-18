@@ -43,7 +43,7 @@ gsap.to(".navbars",{
     borderRadius:"16px",
     background:"rgba(255, 255, 255, 0.12)",
     border:"1px solid rgba(255, 255, 255, 0.22)",
-    backdropFiltter:"blur(15px)",   
+    // backdropFiltter:"blur(15px)",   
      boxShadow:" 0 8px 30px rgba(0, 0, 0, 0.12)",
    scrollTrigger:{
     trigger:".about-section",
