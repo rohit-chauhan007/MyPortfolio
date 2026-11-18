@@ -9,7 +9,7 @@ export default function Hero() {
       </video>
 
       <div className="hero-content">
-        <p className="hero-label">FREELANCE DEVELOPER</p>
+        <p className="hero-label">FREELANCE</p>
         <p className="hero-intro">
           Hi, I’m Rohit. I build polished websites and digital experiences.
         </p>
