@@ -1,15 +1,20 @@
 import HeroVideo from "../../src/assets/heroVideo1.mp4";
 import "../../public/ComponentsStyle/Hero.css";
+
 export default function Hero() {
   return (
-    <>
-      <div className="hero-section">
-        <h1 style={{position:'absolute',top:"40%",left:"20%",color:"black"}}>FREELIENCE</h1>
-        <h1 style={{position:'absolute',top:"70%",left:"50%",color:"black",display:"inline-flex",justifyContent:"end"}}><span>Devloper</span><span>&</span><span>Designer</span></h1>
-        <video autoPlay muted loop>
-          <source src={HeroVideo} />
-        </video>
+    <section className="hero-section">
+      <video className="hero-video" autoPlay muted loop playsInline aria-hidden="true">
+        <source src={HeroVideo} type="video/mp4" />
+      </video>
+
+      <div className="hero-content">
+        <p className="hero-label">FREELANCE DEVELOPER</p>
+        <p className="hero-intro">
+          Hi, I’m Rohit. I build polished websites and digital experiences.
+        </p>
+        <h1 className="hero-title">Developer &amp; Designer</h1>
       </div>
-    </>
+    </section>
   );
 }
