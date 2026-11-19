@@ -1,3 +1,4 @@
+
 function startLoader() {
   const count = document.querySelector(".loader-count h2");
 
@@ -25,7 +26,6 @@ function startLoader() {
     },
   });
   
-console.log("start")
 const tl = gsap.timeline({paused:true})
 tl.to(".loader",{
     yPercent:-100,
@@ -33,6 +33,7 @@ tl.to(".loader",{
         borderBottomLeftRadius:"30%",
        borderBottomRightRadius:"30%",
     ease:"power3.out",
+    
 
 }).from(".hero-section",{
   yPercent:-100,
@@ -41,8 +42,7 @@ tl.to(".loader",{
    borderBottomLeftRadius:"30%",
   borderBottomRightRadius:"30%",
   ease:"power3.out"
- 
-},"+=")
+},"+=");
 
 }
 

@@ -1,5 +1,6 @@
 import HeroVideo from "../../src/assets/heroVideo1.mp4";
 import "../../public/ComponentsStyle/Hero.css";
+import "../../Scripts/hero.js";
 
 export default function Hero() {
   return (
